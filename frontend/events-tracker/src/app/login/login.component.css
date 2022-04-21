@@ -1,0 +1,124 @@
+*{
+    --text-color: white;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/images/login-image-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.signcard{
+    width: 500px;
+    height: 60vh;
+    background: rgba(15, 15, 35, 0.75);
+    border-radius: 40px;
+    position: absolute;
+    right: 12%;
+    top:8%;
+}
+
+.signcard__header{
+    color: var(--text-color)
+}
+
+.signcard__header-welcome{
+    font-size: 21px;
+    line-height: 32px;
+    margin: 0px;
+}
+
+.signcard__header-sign{
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 82px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.signcard__form{
+    margin: 20px 30px;
+}
+
+.signcard__label{
+    display: block;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 24px;
+    color: var(--text-color);
+}
+
+.signcard__input{
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    padding: 15px 10px;
+    background: #FFFFFF;
+    border: 1px solid #4285F4;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+.signcard__button{
+    float: right;
+    margin-right:30px;
+    width: 149px;
+    height: 54px;
+    background: #2923e4;
+    border: none;
+    box-shadow: 0px 4px 19px rgba(56, 65, 169, 0.3);
+    border-radius: 10px;    
+    color: var(--text-color)
+}
+
+@media only screen and (max-width: 1500px) {
+    .signcard{
+      width: 400px;
+      height: 85vh;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .signcard{
+      width: 400px;
+      height: 47.5vh;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .signcard{
+      width: 400px;
+      height: 55vh;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .signcard{
+      width: 300px;
+      height: 75vh;
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .signcard{
+      width: 300px;
+      height: 65vh;
+
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .signcard{
+        width: 250px;
+        height: 85vh;
+
+    }
+}
+.signcard__header{
+    margin: 50px 30px;
+}
